@@ -2,11 +2,12 @@
  * @file hal_common.c
  * @brief This file holds generic setup functions for the test app to help
  * abstract between the different hardware platforms.
- * @copyright Copyright 2015 Silicon Laboratories, Inc. http://www.silabs.com
+ * @copyright Copyright 2015 Silicon Laboratories, Inc. www.silabs.com
  ******************************************************************************/
 
-#include <radio/common/rail_types.h>
 #include "hal_common.h"
+#include "rail_types.h"
+
 #include "em_common.h"
 #include "em_cmu.h"
 
